@@ -1,8 +1,0 @@
-[build]
-  publish = "."
-  functions = "netlify/functions"
-
-[[redirects]]
-  from = "/api/espn-scores"
-  to = "/.netlify/functions/espn-scores"
-  status = 200
